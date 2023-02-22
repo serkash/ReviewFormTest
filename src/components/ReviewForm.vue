@@ -17,7 +17,7 @@ const status = ref(null)
 
 function sendRating() {
   const getData = () => {
-    fetch('https://cors-anywhere.herokuapp.com/corsdemo/https://beta.elcomspb.ru/api/test', {    
+    fetch('/api/test', {    
       method: 'GET',
       mode: 'cors',
       cache: 'no-cache',
